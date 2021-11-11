@@ -1,71 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap');
 body {
     margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+  }
+  :root
+  {
+    --primarycolor:#FBF46D
+
   }
   .head {
-    text-align: center;
-    background-color: aqua;
-    padding: 1rem;
+    
+    background-color:var(--primarycolor);
+    
+    width: 100%;
   }
+  .head .head--h1
+{   text-align: center;
+    color:black;
+    text-align: center;
+    margin-top: 0px;
+    padding: 1.5rem;
+}
   
-
+.container
+{
+  display: flex;
+  justify-content: center;
+}
   .text-input
   {
     border:2px solid black;
-    width: 100%;
+    width: 110%;
     min-height: 20vh;
+    
 
   }
 
   .btn-translate
   {
     border-style: none;
-    background-color: aqua; 
+    background-color: var(--primarycolor); 
     font-size: larger;
     padding: 1rem;
     border-bottom-left-radius:1rem;
     border-bottom-right-radius: 1rem;
+    font-family:'Open Sans', sans-serif; 
+    font-weight: bold;
   }
   .center-container {
     max-width: 500px;
-    margin: auto;
-    
+     margin: auto; 
     padding-top:  1rem;
   }
-  p
+  .para
   {
-    font-size: larger;
-    font-weight: bold;
+    font-size: larger; 
+     font-weight: bold;
+     margin: 0px; 
   }
   .output-txt
   {
     border:2px solid black;
-    width: 100%;
+    width: 110%;
     min-height: 20vh;
     max-height: 15vh;
     overflow: scroll;
     margin-bottom: 10px;
 
   }
-  .img
-  {
-    display: inline;
-    justify-content: left;
-    
-    
-  }
   
-  .thumbnail img {
-    width: 350px;
-    height: 500px;
-    margin-top: -232px;
-  }
-.right
-
+  
+  .end
   {
-      
-        text-align: right;
-        width: 200px;
-        height: 500px;
-        align-items: flex-end;
-        justify-content: end;
+    text-align: center;
+     
+     width: 100%; 
+
+    background-color: var(--primarycolor);
+  }
+   .end-p
+  {
+    max-width: 600px;
+    margin: auto;
+    padding-bottom: 2.5rem;
+
   }
