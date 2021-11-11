@@ -1,0 +1,32 @@
+body {
+    margin: 0px;
+  }
+  .head {
+    text-align: center;
+    background-color: aqua;
+    padding: 1rem;
+  }
+  
+  .center-container {
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+    padding: top 0px;
+  }
+  
+  
+  .thumbnail img {
+    width: 350px;
+    height: 500px;
+    margin-top: -232px;
+  }
+.right
+
+  {
+      
+        text-align: right;
+        width: 200px;
+        height: 500px;
+        align-items: flex-end;
+        justify-content: end;
+  }
